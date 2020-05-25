@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    
+    <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<title>Event App</title>
+</head>
+	<body>
+		<div class="container">
+			<h1>Cadastro de Eventos</h1>
+		
+		
+			<form method="POST">
+				<input placeholder="Nome" type="text" name="nome">
+				<input placeholder="Local" type="text" name="local">
+				<input placeholder="Data" type="date" name="data">
+				<input placeholder="Hora" type="time" name="hora">
+				<br><br>
+				<button class="waves-effect btn amber darken-4" type="submit">Salvar</button>
+			</form>
+		
+		
+		<br>
+		<a class="waves-effect btn  amber darken-1" href="/eventos"><i class="material-icons right">dehaze</i>Visualizar eventos</a>
+		
+		</div>
+	</body>
+
+</html>
